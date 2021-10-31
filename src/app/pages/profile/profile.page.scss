@@ -1,0 +1,72 @@
+ion-content {
+    --ion-background-color: #313131;
+}
+
+ion-header {
+    position: absolute;
+    --ion-background-color: #3b3b3b;
+}
+
+ion-toolbar {
+    --ion-background-color: #3b3b3b;
+    --opacity: 0;
+}
+ion-title {
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #252525;
+}
+
+.overylay {
+    position: relative;
+    text-align: center;
+    top: 60%;
+}
+
+ion-avatar {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 4px solid #bebebe;
+}
+
+ion-card {
+    margin-top: 40px;
+    --ion-background-color: transparent !important;
+    box-shadow: none;
+    text-align: center;
+}
+
+ion-card-title {
+    color: #e2e2e2;
+}
+
+ion-item {
+    --ion-item-background: #6d6d6d;
+    text-align: center;
+    color: #c2c3c4;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 20px;
+    height: 35px;
+    --min-height: 35px;
+    margin-bottom: 15px;
+}
+
+ion-label {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}

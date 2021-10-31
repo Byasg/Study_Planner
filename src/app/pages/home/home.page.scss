@@ -1,0 +1,21 @@
+ion-toolbar {
+  --ion-background-color: #242424;
+  ion-title {
+    text-align: center;
+    color: #e2e2e2;
+  }
+}
+
+ion-content {
+  --ion-background-color: #272727;
+}
+
+.wrappContent {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: antiquewhite;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

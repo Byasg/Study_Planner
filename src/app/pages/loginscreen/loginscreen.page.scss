@@ -1,0 +1,127 @@
+ion-header {
+  position: absolute;
+}
+
+ion-toolbar {
+  --ion-background-color: transparent;
+  --opacity: 0;
+}
+
+ion-content {
+  --ion-background-color: #3d3d3d !important;
+  --ion-item-background: transparent !important;
+}
+
+ion-back-button {
+  color: #fcfcfc;
+}
+
+.wrapform {
+  margin-top: 15px;
+}
+.error_message {
+  font-size: 6px;
+  color: red;
+}
+ion-item {
+  color: #9d6477;
+  --border-color: #d4d7db;
+  --highlight-color-focused: #6b3f5c;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+
+  font-size: 12px;
+  ion-input {
+    color: #df9ec4;
+  }
+
+  ion-icon {
+    padding-right: 6px;
+    font-size: 18px;
+  }
+
+  ion-input:hover {
+    color: #c493aa;
+  }
+}
+
+.password_forgot {
+  text-align: right;
+  ion-button {
+    font-size: 12px;
+    color: #d188a4;
+  }
+}
+
+.sign-btn-wrap {
+  text-align: center;
+  padding-top: 20px;
+  .sign-btn {
+    --ion-primary-color: #b7214e;
+    --background-activated: #e1eaf9;
+    --background-focused: #e1eaf9;
+    --background-hover: #9d6472;
+    color: #f4f6fa;
+    border-radius: 25px;
+    --background: #b7214e;
+    background-color: #b7215b;
+  }
+}
+
+.text-tag {
+  margin-top: 30px;
+  text-align: center;
+  span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #898585;
+  }
+}
+
+.social-btns {
+  margin-top: 25px;
+  text-align: center;
+  ion-button {
+    width: 40px;
+    padding-left: 5px !important;
+  }
+}
+
+ion-card {
+  --ion-background-color: transparent !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+ion-card-title {
+  margin-top: 120px !important;
+  text-align: center;
+  font-size: 18px;
+  color: #c5c5c5;
+}
+
+.ion-card-footer {
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  span {
+    color: #8d8588;
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  button {
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 3px;
+    color: #585354;
+  }
+
+  button:hover {
+    color: #969394;
+  }
+}

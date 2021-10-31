@@ -1,0 +1,113 @@
+ion-content {
+  --ion-background-color: transparent;
+  --ion-item-background: transparent !important;
+}
+
+.bg-color {
+  background: #333333;
+}
+
+ion-header {
+  position: absolute;
+}
+
+ion-toolbar {
+  --ion-background-color: transparent;
+  --opacity: 0;
+}
+
+ion-card {
+  --ion-background-color: transparent;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+
+ion-card-title {
+  margin-top: 80px !important;
+  font-size: 25px;
+  color: #e2e2e2;
+  font-weight: 600;
+  text-align: center;
+}
+
+ion-card-subtitle {
+  text-align: center;
+  padding-top: 15px !important;
+  font-size: 13px;
+  color: #e9e9e9;
+  font-weight: 400;
+  text-transform: none;
+  padding: 0 30px;
+}
+
+ion-card-content {
+  padding-top: 30px;
+}
+ion-item {
+  color: #dbdbdb;
+  --border-color: #d4d7db;
+
+  --highlight-color-focused: #925e7e;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  --highlight-color-invalid: #683755;
+  --highlight-color-valid: #683755;
+
+  font-size: 13px;
+  ion-input {
+    color: #f5c7e2;
+    font-size: 13px;
+    ion-icon {
+      padding-right: 6px;
+      font-size: 18px;
+    }
+  }
+
+  ion-input:hover {
+    color: #663263;
+  }
+}
+
+ion-back-button {
+  color: #fcfcfc;
+}
+
+.sign-btn-wrap {
+  text-align: center;
+  padding-top: 45px;
+  .sign-btn {
+    --ion-primary-color: #b72174;
+    --background: #b72185;
+    --background-activated: #2e2e2e;
+    --background-focused: #2e2d2d;
+    --background-hover: #9d6487;
+    color: #f3f3f3;
+    background-color: #b72185;
+    border-radius: 25px;
+  }
+}
+
+.text-tag {
+  margin-top: 35px;
+  text-align: center;
+  span {
+    font-size: 13px;
+    font-weight: normal;
+    color: #62334d;
+  }
+}
+
+.social-btns {
+  margin-top: 18px;
+  text-align: center;
+  ion-button {
+    width: 30px;
+    padding-left: 5px !important;
+  }
+}
+
+.error_message {
+  font-size: 6px;
+  font-weight: 200;
+  color: #913e07;
+}
